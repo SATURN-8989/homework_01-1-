@@ -5,7 +5,7 @@
 <script async src="https://googletagmanager.com"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag()){dataLayer.push(arguments);}
+  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-TR5BK0MY69');
@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Учебная лаборатория веб-аналитики: страницы, переходы и события.">
 <title>Contacts - GA4 Lab</title>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="css/style.css">
 <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -29,19 +29,14 @@
 <main>
   <p class="eyebrow">01.05 / ЛАБОРАТОРИЯ ВЕБ-АНАЛИТИКИ</p>
   <h1>Давайте<br><em>оставаться на связи.</em></h1>
-  <p class="lead">Последняя остановка маршрута пользователя.<br>Заполните форму ниже чтобы отправить тестовую заявку.</p>
   <form id="lead-form">
     <label for="visitor-name">Имя</label>
-    <input id="visitor-name" name="name" autocomplete="off" placeholder="Учебный псевдоним" required maxlength="60">
-    <label for="visitor-email">Email</label>
-    <input id="visitor-email" name="email" type="email" autocomplete="off" placeholder="test@example.com" required>
-    <button class="button" type="submit">Отправить заявку <span></span></button>
-    <p id="form-status" role="status"></p>
+    <input id="visitor-name" name="name" autocomplete="off" placeholder="Учебный псевдоним" required>
+    <button class="button" type="submit">Отправить заявку</button>
   </form>
 </main>
 <footer>
   <p>GA4 Lab - Учебный сайт</p>
-  <p>HTML / CSS / JavaScript</p>
 </footer>
 </body>
 </html>
